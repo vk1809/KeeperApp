@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*Header Styling*/
+.Header{
+  background: rgb(246, 202, 57);
+  padding: 15px;
+  box-shadow: 0 0 10px 0 rgb(91, 91, 90);
+}
+
+
+/*Footer Styling*/
+.Footer{
+  position:absolute;
+  text-align: center;
+  width:100%;
+  bottom: 0;
+  color:rgb(165, 165, 165);
+}
+.Footer p{
+  padding-bottom: 10px;
+}
+
+/*Note Styling*/
+.Note{
+  min-height: 50px;
+  min-width: 100px;
+  display:inline-block;
+  border: 1.5px solid grey;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgb(91, 91, 90);
+}
